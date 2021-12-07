@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Forbidden Fruit";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Forbidden Fruit.ttf");
+}
+
+h1 {
+    font-family: "Forbidden Fruit";
+    font-weight: 200;
+    color: whitesmoke;
+}
+
+div ::-webkit-scrollbar{
+    width: 8px;
+}
+div ::-webkit-scrollbar-track {
+    background: whitesmoke;
+}
+div ::-webkit-scrollbar-thumb{
+    background: rgb(112, 216, 181);
+}
+div ::-webkit-scrollbar-thumb:hover{
+    background: rgb(0, 145, 96);
+}
